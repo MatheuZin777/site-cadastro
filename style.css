@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body{
+    margin: 0 auto;
+    font-family: 'roboto', 'Times New Roman', Times, serif;
+}
+
+
+
+.principal{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #201b2c;
+}
+
+.text > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;;
+    outline: none;
+    box-sizing: border-box;
+
+
+}
+
+.text{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin: 10px 0px;
+}
+
+    .text > input::placeholder{
+        color: #f0ffff94;
+     }
+
+     .text > label{
+        color: #f0ffffde;
+        margin-bottom: 10px;
+    }
+
+    .data{
+        color: #f0ffffde;
+        border: none;
+    }
+
+    .sex{
+        color: #f0ffffde;
+        border-radius: 14px;
+    }
+
+    .bnt{
+        display: flex;
+        border: none;
+        border-radius: 8px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin: 10px 80px;
+        padding: 15px 20px;
+        box-shadow: 0px 10px 40px -12px black;
+        cursor: pointer;
+        border: none;
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: 0.5px;
+        background: rgb(0, 255, 106);
+        color: rgb(0, 0, 0);
+    }
+
+    a{
+        text-decoration: none;
+    }
