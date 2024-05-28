@@ -1,0 +1,24 @@
+table{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+
+th {
+    border: 2px solid black;
+    color: rgb(79, 167, 245);
+}
+
+td{
+    border: 2px solid rgb(8, 70, 91);
+    color: azure;
+}
+
+body{
+    background-color: rgb(36, 45, 45);
+}
+
+p{
+    color: aquamarine;
+}
